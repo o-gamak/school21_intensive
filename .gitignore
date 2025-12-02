@@ -1,0 +1,54 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Датасеты и любые CSV/паркеты
+*.csv
+*.parquet
+*.json
+*.purchases/
+messages/
+data/
+datasets/
+filtered_data/
+
+# Кэши и временные папки CatBoost/XGBoost/LightGBM
+catboost_info/
+xgboost/
+lightgbm/
+__pycache__/
+*.pyc
+
+# Виртуальные окружения
+env/
+venv/
+.venv/
+ENV/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Большие файлы и архивы
+*.zip
+*.tar.gz
+*.7z
+
+# Файлы с описаниями и техзаданиями (если не нужны в репо)
+Опис*.docx
+Техническое*.docx
+*.pdf
+
+# Всё, что не нужно в Git
+15d5adf9-246c-4b...  # такие временные файлы от Jupyter
